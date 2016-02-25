@@ -8,6 +8,7 @@ body{
   color: #000;
   padding-top: 70px;
   transition: all 0.3s;
+  display: block;
 }
 
 h1 {
@@ -17,6 +18,11 @@ h1 {
 
 p {
   font-size: 1.5em;
+}
+
+ul {
+  font-size: 1.5em;
+  list-style-type: none;
 }
 
 .container {
@@ -29,6 +35,21 @@ p {
 
 #one {
   text-align: center;
+}
+
+#two {
+  padding-top: 6em;
+}
+
+#three {
+  padding-top: 6em;
+  text-align: center;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+#four{
+  padding-top: 6em;
 }
 
 hr {
@@ -56,4 +77,15 @@ img {
 
 #mainTitle {
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#daddyDaughter{
+  padding-top: 15em;
+  width: 50%;
+  padding-left: 15em;
+  float: right;
+}
+
+.white {
+  background-color: white;
 }
